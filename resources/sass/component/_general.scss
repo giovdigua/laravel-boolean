@@ -1,0 +1,10 @@
+@import '../variables';
+body{
+    background-color:background-color ;
+    font-family: $font-family;
+}
+
+.btn-success{
+    background-color:$green-site-color ;
+    border-color: $green-site-color;
+}

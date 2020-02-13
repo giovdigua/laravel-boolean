@@ -1,0 +1,41 @@
+.navbar {
+    height: 90px;
+
+    .navbar-brand {
+    height: 100%;
+    display: inline-block;
+    img {
+        height: 100%;
+    }
+}
+    .navbar-collapse{
+        justify-content: flex-end;
+        .nav-item{
+           .nav-link{
+                 margin: 0 5px;
+                 padding: 0 20px;
+                font-size: 14px;
+                 text-transform: uppercase;
+                color: $dark-font-color;
+                color: $dark-font-color;
+                &:hover{
+                border-bottom: 2px solid $green-site-color ;
+              }
+              &.active{
+                border-bottom: 2px solid $green-site-color ;
+             }
+            }
+            
+            
+        }
+
+     
+        .btn-success{
+            text-transform: uppercase;
+        }
+
+    }
+ 
+
+}
+
